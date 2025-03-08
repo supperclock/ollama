@@ -1,3 +1,10 @@
+export OLLAMA_HOST="0.0.0.0:8501"
+export OLLAMA_KEEP_ALIVE="24h"
+export OLLAMA_MODELS="/app/train/ollama/models"
+export OLLAMA_FLASH_ATTENTION=1
+export CUDA_VISIBLE_DEVICES=0
+
+
 <div align="center">
   <a href="https://ollama.com">
     <img alt="ollama" height="200px" src="https://github.com/ollama/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7">
